@@ -31,13 +31,13 @@ $(document).ready(function(){
 
     presentTime();
 
-    $('firstRowNine .description').val(localStorage.getItem('firstRowNine'));
-    $('secondRowTen .description').val(localStorage.getItem('secondRowTen'));
-    $('thirdRowEleven .description').val(localStorage.getItem('thirdRowEleven'));
-    $('fourthRowTwelve .description').val(localStorage.getItem('fourthRowTwelve'));
-    $('fifthRowOne .description').val(localStorage.getItem('fifthRowOne'));
-    $('sixthRowTwo .description').val(localStorage.getItem('sixthRowTwo'));
-    $('seventhRowThree .description').val(localStorage.getItem('seventhRowThree'));
-    $('eighthRowFour .description').val(localStorage.getItem('eighthRowFour'));
-    $('ninthRowFive .description').val(localStorage.getItem('ninthRowFive'));
+    $('#firstRowNine .description').val(localStorage.getItem('firstRowNine'));
+    $('#secondRowTen .description').val(localStorage.getItem('secondRowTen'));
+    $('#thirdRowEleven .description').val(localStorage.getItem('thirdRowEleven'));
+    $('#fourthRowTwelve .description').val(localStorage.getItem('fourthRowTwelve'));
+    $('#fifthRowOne .description').val(localStorage.getItem('fifthRowOne'));
+    $('#sixthRowTwo .description').val(localStorage.getItem('sixthRowTwo'));
+    $('#seventhRowThree .description').val(localStorage.getItem('seventhRowThree'));
+    $('#eighthRowFour .description').val(localStorage.getItem('eighthRowFour'));
+    $('#ninthRowFive .description').val(localStorage.getItem('ninthRowFive'));
 })
