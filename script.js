@@ -29,6 +29,8 @@ $(document).ready(function(){
         });
     };
 
+    presentTime();
+
     $('firstRowNine .description').val(localStorage.getItem('firstRowNine'));
     $('secondRowTen .description').val(localStorage.getItem('secondRowTen'));
     $('thirdRowEleven .description').val(localStorage.getItem('thirdRowEleven'));
