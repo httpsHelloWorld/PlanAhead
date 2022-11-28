@@ -9,20 +9,20 @@ $(document).ready(function(){
         localStorage.setItem(theTime,theTask);
     });
 
-    $('#firstRowNine .description').val(localStorage.getItem('firstRowNine'));
-    $('#secondRowTen .description').val(localStorage.getItem('secondRowTen'));
-    $('#thirdRowEleven .description').val(localStorage.getItem('thirdRowEleven'));
-    $('#fourthRowTwelve .description').val(localStorage.getItem('fourthRowTwelve'));
-    $('#fifthRowOne .description').val(localStorage.getItem('fifthRowOne'));
-    $('#sixthRowTwo .description').val(localStorage.getItem('sixthRowTwo'));
-    $('#seventhRowThree .description').val(localStorage.getItem('seventhRowThree'));
-    $('#eighthRowFour .description').val(localStorage.getItem('eighthRowFour'));
-    $('#ninthRowFive .description').val(localStorage.getItem('ninthRowFive'));
+    $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+    $('#hour-10 .description').val(localStorage.getItem('hour-10'));
+    $('#hour-11 .description').val(localStorage.getItem('hour-11'));
+    $('#hour-12 .description').val(localStorage.getItem('hour-12'));
+    $('#hour-1 .description').val(localStorage.getItem('hour-1'));
+    $('#hour-2 .description').val(localStorage.getItem('hour-2'));
+    $('#hour-3 .description').val(localStorage.getItem('hour-3'));
+    $('#hour-4 .description').val(localStorage.getItem('hour-4'));
+    $('#hour-5 .description').val(localStorage.getItem('hour-5'));
 
     function presentTime(){
         var timePresent = moment().hour();
         $('.time-block').each(function(){
-            var theHour = parseInt($(this).attr('id').split('')[1]);
+            var theHour = parseInt($(this).attr('id').split('-')[1]);
             if(theHour < timePresent){
                 $(this).removeClass('future');
                 $(this).removeClass('present');
