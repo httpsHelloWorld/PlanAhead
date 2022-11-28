@@ -22,7 +22,7 @@ $(document).ready(function(){
     function presentTime(){
         var timePresent = moment().hour();
         $('.time-block').each(function(){
-            var theHour = parseInt($(this).attr('id').split('hour')[1]);
+            var theHour = parseInt($(this).attr('id').split('')[1]);
             if(theHour < timePresent){
                 $(this).removeClass('future');
                 $(this).removeClass('present');
