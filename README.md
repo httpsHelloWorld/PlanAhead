@@ -8,12 +8,14 @@ This program lets users write and store their work-day tasks.
 <li>To save their tasks, users click the button adjacent to the time period blocks.</li>
 <li>Present time is represented by red, passed time is represented by grey, and incoming time is representing by green.</li>
 </ul>
+
 ## User Story
 <pre>
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 </pre>
+
 ## Acceptance Criteria
 <pre>
 GIVEN I am using a daily planner to create a schedule
