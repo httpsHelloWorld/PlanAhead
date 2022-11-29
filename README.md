@@ -1,5 +1,5 @@
 # Third-Party APIs Challenge: Work Day Scheduler
-![](/image/Screenshot%202022-11-28%20at%201.20.57%20AM.png)
+![](/image/Screenshot%202022-11-28%20at%2010.49.24%20PM.png)
 Link: https://httpshelloworld.github.io/PlanAhead/
 ## How To Use
 This program lets users write and store their work-day tasks.
